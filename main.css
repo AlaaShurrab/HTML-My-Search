@@ -1,0 +1,286 @@
+body {
+  background-color: #222953;
+  background-image: url("img/628927-charlotte-anime-38990409-1366-975.png");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Add a black background color to the top barigation bar */
+.topbar {
+  overflow: hidden;
+  background-color:#26496190;    
+}
+  
+  /* Style the links inside the barigation bar */
+.topbar a {
+  float: right;
+  display: block;
+  color: #00ffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+  /* doing the hover efect for the top bar */
+.topbar a:hover {
+  background-color: #008cff95;
+  color: black;
+}
+  
+/* Style the "active" element to highlight the current page */
+.topbar a.active {
+  background-color: #2196F3;
+  color: rgb(0, 0, 0);
+}
+  
+.searchForm{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-1%);
+}
+
+/* seting the position & customization for the logo */
+.gooolestyle{
+  background-color: #2196F340;
+  border-radius: 150px;
+  padding: 20px;
+  box-shadow: #00ffff40 0px 0px 50px 40px ;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-110%);
+  transition: 0.5s;
+} 
+
+/* seting the best settings for the form */
+.searchForm input[type=text]{ 
+  width: 570px;
+  padding: 1.75% 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 6px;
+  margin-top: 15px;
+  font-size: 21px;   
+  align-items: stretch ;
+  border-radius: 30px ;
+}
+
+/* doing the hover & focus efect for the search Form */
+.searchForm input[type=text]:hover, .searchForm input[type=text]:focus{
+  border-color: #2196f3;
+  overflow: hidden;
+  outline: none;
+  box-shadow: #00ffff90 3px 3px 8px 2px ;
+  transition: 0.2s;
+ }
+
+/* setening the action for the search botton */
+.searchForm a {
+  margin-top: 10px;
+  position: relative;
+  display: block;
+  padding: 15px 22px;
+  color: #2196f3;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2;
+  -webkit-text-stroke: 0.5px #2374b6;
+}
+
+/* setening the hover to for the search botton */
+.searchForm a:hover {
+  color: #2196f3;
+  background:aqua;
+  box-shadow:  0 0 10px aqua, 0 0 40px aqua,  0 0 80px aqua;
+  transition-delay: 0.55s;
+}
+
+.searchForm a span {
+  position: absolute;
+  display: block;
+}
+
+/* setening the atriputes and actions for the borders for the leftbtn */
+.leftbtn a span:nth-child(1) {
+  top: 0;
+  left:-100%;
+  width: 100%;
+  height: 2px;
+  background: linear-Gradient(90deg,transparent,aquamarine);
+}
+
+.leftbtn a:hover span:nth-child(1) {
+  left: 100%;
+  transition: 0.5s; 
+}
+
+.leftbtn a span:nth-child(3)  {
+  bottom: 0;
+  right:-100%;
+  width: 100%;
+  height: 2px;
+  background: linear-Gradient(270deg,transparent,aquamarine);
+}
+
+.leftbtn a:hover span:nth-child(3) {
+  right: 100%;
+  transition: 0.5s; 
+  transition-delay: 0.25s;
+}
+
+.leftbtn a span:nth-child(2)  {
+  top: -100%;
+  right:0;
+  width: 2px;
+  height: 100%;
+  background: linear-Gradient(180deg,transparent,aquamarine);
+}
+
+.leftbtn a:hover span:nth-child(2) {
+  top: 100%;
+  transition: 0.5s; 
+  transition-delay: 0.125s;
+}
+
+.leftbtn a span:nth-child(4)  {
+  bottom: -100%;
+  left:0;
+  width: 2px;
+  height: 100%;
+  background: linear-Gradient(360deg,transparent,aquamarine);
+}
+
+.leftbtn a:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 0.5s; 
+  transition-delay: 0.375s;
+}
+
+/* setening the atriputes and actions for the borders for the rightbtn */
+.rightbtn a span:nth-child(1)  {
+  top: 0;
+  left:100%;
+  width: 100%;
+  height: 2px;
+  background: linear-Gradient(270deg,transparent,aquamarine);
+}
+
+.rightbtn a:hover span:nth-child(1) {
+  left: -100%;
+  transition: 0.5s; 
+}
+
+.rightbtn a span:nth-child(3)  {
+  bottom: 0;
+  right:100%;
+  width: 100%;
+  height: 2px;
+  background: linear-Gradient(90deg,transparent,aquamarine);
+}
+
+.rightbtn a:hover span:nth-child(3) {
+  right: -100%;
+  transition: 0.5s; 
+  transition-delay: 0.25s;
+}
+
+.rightbtn a span:nth-child(4)  {
+  bottom: 100%;
+  left:0;
+  width: 2px;
+  height: 100%;
+  background: linear-Gradient(180deg,transparent,aquamarine);
+}
+
+.rightbtn a:hover span:nth-child(4) {
+  bottom: -100%;
+  transition: 0.5s; 
+  transition-delay: 0.125s;
+}
+
+.rightbtn a span:nth-child(2)  {
+  top: 100%;
+  right:0;
+  width: 2px;
+  height: 100%;
+  background: linear-Gradient(360deg,transparent,aquamarine);
+}
+
+.rightbtn a:hover span:nth-child(2) {
+  top: -100%;
+  transition: 0.5s; 
+  transition-delay:0.375s ;
+}
+
+/* assining the botton to there best suted places */
+.leftbtn {
+  float: left;
+}
+
+.rightbtn{
+  float: right;
+}
+
+.folower {
+  margin-top: 87vh;
+  margin-left: 2%;
+  position: fixed;
+  display: flex;
+}
+
+.folower a {
+  float: right;
+  display: block;
+  color: #2196f3;
+  text-align: center;
+  padding: 0% 10px;
+  text-decoration: none;
+  font-size: 120%;
+}
+
+.folower a:hover {
+  color: #00ffff;
+}
+
+/* simple responsive style  */
+@media (max-width: 1320px) {
+  body {
+    background-size: 1320px 940px;
+    background-position:top right;
+  }
+
+  .gooolestyle{
+    width: 390px;
+    transition: 0.5s; 
+  } 
+
+  .searchForm {
+    width: 45vh;
+  }
+
+  .searchForm input[type=text]{ 
+    width: 350px;
+    transition: 0.5s; 
+  }
+
+  .rightbtn{
+    float: left;
+    margin-top: -20px;
+    margin-left:10% ;
+  }
+
+  .leftbtn{
+    float: left;
+    margin-top: -5px;
+    margin-left:15.5% ;
+  }
+  
+}
